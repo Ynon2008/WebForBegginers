@@ -1,0 +1,28 @@
+.view {
+  width: 100vw;
+}
+.small {
+  width: 20vw;
+}
+
+.percent {
+  width: 100%;
+}
+
+.fonting-ex1 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.fonting-ex2 {
+  font-size: 3.5rem;
+  line-height: 5.25rem;
+}
+
+.my-line {
+  line-height: 1.5em;
+}
+
+.fonting-ex3 {
+  font-size: 3.5rem;
+}

@@ -1,5 +1,11 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import {
+  Component,
+  Input,
+  Output,
+  EventEmitter,
+  ChangeDetectionStrategy,
+} from '@angular/core';
 
 @Component({
   selector: 'app-shopping-list-display',
@@ -13,6 +19,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     <button (click)="addNewItem()">Add Item</button>
   `,
   standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CommonModule],
 })
 export class ShoppingListDisplayComponent {
